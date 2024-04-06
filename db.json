@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "isim": "Ahmet",
+      "soyisim": "Yılmaz",
+      "kullaniciAdi": "ahmetylmz",
+      "email": "ahmet.yilmaz@example.com",
+      "sifre": "123456"
+    },
+    {
+      "id": 2,
+      "isim": "Merve",
+      "soyisim": "Demir",
+      "kullaniciAdi": "merve.demir",
+      "email": "merve.demir@example.com",
+      "sifre": "123456"
+    },
+    {
+      "id": 3,
+      "isim": "Can",
+      "soyisim": "Korkmaz",
+      "kullaniciAdi": "cankorkmaz",
+      "email": "can.korkmaz@example.com",
+      "sifre": "123456"
+    },
+    {
+      "id": 4,
+      "isim": "Elif",
+      "soyisim": "Sarı",
+      "kullaniciAdi": "elifsari",
+      "email": "elif.sari@example.com",
+      "sifre": "123456"
+    },
+    {
+      "id": 5,
+      "isim": "Burak",
+      "soyisim": "Kaya",
+      "kullaniciAdi": "burakkaya",
+      "email": "burak.kaya@example.com",
+      "sifre": "123456"
+    },
+    {
+      "id": 6,
+      "isim": "Seda",
+      "soyisim": "Özdemir",
+      "kullaniciAdi": "seda.ozdmr",
+      "email": "seda.ozdemir@example.com",
+      "sifre": "123456"
+    },
+    {
+      "id": 7,
+      "isim": "Emre",
+      "soyisim": "Akar",
+      "kullaniciAdi": "emreakar",
+      "email": "emre.akar@example.com",
+      "sifre": "123456"
+    },
+    {
+      "id": 8,
+      "isim": "Zeynep",
+      "soyisim": "Çelik",
+      "kullaniciAdi": "zeynepcelik",
+      "email": "zeynep.celik@example.com",
+      "sifre": "123456"
+    },
+    {
+      "id": 9,
+      "isim": "Mehmet",
+      "soyisim": "Yıldırım",
+      "kullaniciAdi": "mehmetyldrm",
+      "email": "mehmet.yildirim@example.com",
+      "sifre": "123456"
+    },
+    {
+      "id": 10,
+      "isim": "Derya",
+      "soyisim": "Ünal",
+      "kullaniciAdi": "deryaunal",
+      "email": "derya.unal@example.com",
+      "sifre": "123456"
+    }
+  ]
+}
