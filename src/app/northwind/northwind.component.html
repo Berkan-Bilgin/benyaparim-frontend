@@ -1,0 +1,23 @@
+<p>northwind works!</p>
+
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="userEmail">Email: </label>
+    <input type="text" id="userEmail" formControlName="Email" />
+  </div>
+  <div>
+    <label for="userPassword">Password: </label>
+    <input type="password" id="userPassword" formControlName="Password" />
+  </div>
+  <div>
+    <label for="userFirstName">FirstName:</label>
+    <input type="text" id="userFirstName" formControlName="FirstName" />
+  </div>
+  <div>
+    <label for="userLastName">LastName: </label>
+    <input type="text" id="userLastName" formControlName="LastName" />
+  </div>
+  <button type="submit" [disabled]="!registerForm.valid">
+    Kaydı tamamlaaaa!
+  </button>
+</form>

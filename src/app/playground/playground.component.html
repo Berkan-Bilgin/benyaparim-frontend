@@ -1,0 +1,29 @@
+<p>playground works!</p>
+
+<ul>
+  <li *ngFor="let user of users" (click)="onSelectUser(user.id)">
+    {{ user.isim }} - {{ user.id }}
+  </li>
+</ul>
+
+<div *ngIf="selectedUser">
+  <h2>{{ selectedUser.isim }}'s details</h2>
+  <div><span>id: </span>{{ selectedUser.id }}</div>
+  <div><span>email: </span>{{ selectedUser.email }}</div>
+</div>
+
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+  <input formControlName="id" type="number" placeholder="id" />
+  <input formControlName="isim" type="text" placeholder="isim" />
+  <input formControlName="soyisim" type="text" placeholder="soyisim" />
+  <input
+    formControlName="kullaniciAdi"
+    type="text"
+    placeholder="kullaniciadi"
+  />
+  <input formControlName="email" type="email" placeholder="E-mail" />
+  <input formControlName="sifre" type="password" placeholder="sifre" />
+
+  <!-- Diğer form alanları -->
+  <button type="submit">Gönder</button>
+</form>
